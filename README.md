@@ -1,1 +1,1 @@
-Scripted Jenkins pipeline: Triggere other job
+Scripted Jenkins pipeline: Trigger other job
