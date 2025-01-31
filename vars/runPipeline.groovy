@@ -2,7 +2,7 @@ def call (){
     echo "Hello World"
 
     node() {
-        def name = "Serg"
-        echo "hello ${name}"
+        def webhookpayload = readJSON text: env.JSON_PAYLOAD;
+        echo "JSON: ${webhookpayload}"
     }
 }
