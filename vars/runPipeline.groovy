@@ -9,6 +9,7 @@ def call (){
 
         stage('Get code'){
             echo "Get SCM"
+            sh "ls -la"
         }
 
         stage('Сборка'){
